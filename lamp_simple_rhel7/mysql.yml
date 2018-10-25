@@ -2,8 +2,8 @@
 # This playbook deploys the MySQL Database
 
 - name: deploy MySQL and configure the databases
-  hosts: dbservers
-  remote_user: root
+  hosts: all
+  remote_user: ansible
 
   roles:
     - db
