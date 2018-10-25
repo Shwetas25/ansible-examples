@@ -1,6 +1,6 @@
 ---
 - name: Install MariaDB
-  hosts: wordpress-server
+  hosts: all
   remote_user: root
   # remote_user: ansible
   sudo: yes
