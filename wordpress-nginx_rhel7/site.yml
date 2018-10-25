@@ -1,13 +1,13 @@
 ---
-- name: Install WordPress, MariaDB, Nginx, and PHP-FPM
+- name: Install MariaDB
   hosts: wordpress-server
   remote_user: root
-  # remote_user: user
-  # sudo: yes
+  # remote_user: ansible
+  sudo: yes
 
   roles:
     - common
     - mariadb
-    - nginx
-    - php-fpm
-    - wordpress
+    # nginx
+   # php-fpm
+    # ordpress
